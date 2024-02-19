@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TNT Drag to upload</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <style type="text/tailwindcss">
+    /* @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        } */
+      </style>
+</head>
+
+<body class="bg-blue-500">
+  <div class="flex h-screen w-full items-center justify-center container">
+    <div class="drag-area max-w-md text-white  w-full lg:w-88 rounded-2xl border-2 
+        border-dashed border-neutral-5 p-6 flex flex-col items-center justifly-center">
+      <header class="text-lg font-bold ">Kéo và thả để Tải ảNh lên</header>
+      <span class="my-3 text-sm">Hoặc</span>
+      <button class="px-4 py-2 rounded bg-neutral-100 text-red-600">Chọn File</button>
+      <input type="file" hidden name="" id="">
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+
+</html>
